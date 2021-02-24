@@ -9,9 +9,6 @@ namespace Gun4Odev2Constructors
             Customer customer1 = new Customer { Id = 1, FristName = "ali", LastName = "veli", City = "Ankara" };//defult constructor çalışır.
             Customer customer2 = new Customer(2, "ahmet", "mehmet", "İstanbul");//parametre bekleyen constructor çalışır. ancak bu constructora gelen parametreler için constructor içinde
             //ilgili veriye atama yapılması gereklidir. ancak bu şekilde customer'nin özelliklerine ulaşılabilir. 
-
-            
-
         }
 
         
