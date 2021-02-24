@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev1ReferanceTypes", "Gun4Odev1ReferanceTypes\Gun4Odev1ReferanceTypes.csproj", "{A9E94C86-DFF7-4008-9419-E27CE99FFED6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev2Constructors", "Gun4Odev2Constructors\Gun4Odev2Constructors.csproj", "{89D1BBDA-5670-4C7D-9D4D-722FCE381960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D1BBDA-5670-4C7D-9D4D-722FCE381960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D1BBDA-5670-4C7D-9D4D-722FCE381960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D1BBDA-5670-4C7D-9D4D-722FCE381960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D1BBDA-5670-4C7D-9D4D-722FCE381960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
