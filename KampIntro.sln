@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{71121359-8F6F-40F2-9D96-9E1F66EB2A07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev1ReferanceTypes", "Gun4Odev1ReferanceTypes\Gun4Odev1ReferanceTypes.csproj", "{A9E94C86-DFF7-4008-9419-E27CE99FFED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{71121359-8F6F-40F2-9D96-9E1F66EB2A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71121359-8F6F-40F2-9D96-9E1F66EB2A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71121359-8F6F-40F2-9D96-9E1F66EB2A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E94C86-DFF7-4008-9419-E27CE99FFED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
