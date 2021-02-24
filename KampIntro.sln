@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev2Constructors", "Gu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev3Generics", "Gun4Odev3Generics\Gun4Odev3Generics.csproj", "{6DEEEFB6-A866-494C-94A8-49D7105A2211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun4Odev5Dictionary", "Gun4Odev5Dictionary\Gun4Odev5Dictionary.csproj", "{427ABCE6-1446-4055-95E0-8861F5EE29D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6DEEEFB6-A866-494C-94A8-49D7105A2211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DEEEFB6-A866-494C-94A8-49D7105A2211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DEEEFB6-A866-494C-94A8-49D7105A2211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427ABCE6-1446-4055-95E0-8861F5EE29D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427ABCE6-1446-4055-95E0-8861F5EE29D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427ABCE6-1446-4055-95E0-8861F5EE29D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427ABCE6-1446-4055-95E0-8861F5EE29D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
