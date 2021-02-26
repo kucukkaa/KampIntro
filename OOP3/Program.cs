@@ -20,8 +20,8 @@ namespace OOP3
             //konutKrediManager.Hesapla();
             ILoggerService fileLoggerService = new FileLoggerService();
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(ihtiyacKrediManager, new DatabaseLoggerService());//bu şekilde de gönderilebilir.
-            basvuruManager.BasvuruYap(konutKrediManager, fileLoggerService);//böyle de gönderilebilir.
+            //basvuruManager.BasvuruYap(ihtiyacKrediManager, new DatabaseLoggerService());//bu şekilde de gönderilebilir.
+            basvuruManager.BasvuruYap(konutKrediManager, new List<ILoggerService> { new DatabaseLoggerService(), new FileLoggerService()});//böyle de gönderilebilir.
 
 
             List<IKrediManager> krediler = new List<IKrediManager>() {konutKrediManager};
