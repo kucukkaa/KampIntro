@@ -49,14 +49,14 @@ namespace Gun4Odev5Dictionary
 
 
 
-        public int LengthValues
+        public int Length
         {
             get { return values.Length; }
         }
 
-        public int LengthKeys
-        {
-            get { return keys.Length; }
-        }
+        //public int LengthKeys
+        //{
+        //    get { return keys.Length; }
+        //}
     }
 }
