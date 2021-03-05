@@ -5,8 +5,9 @@ using Gun5Odev5TheGame.Entities;
 
 namespace Gun5Odev5TheGame.Abstract
 {
-    interface IDiscountCheckService
+    public interface  IDiscountCheckService
     {
-        bool IsBirthDay(Player player);
+        public bool IsBirthDay(Player player);
+        
     }
 }

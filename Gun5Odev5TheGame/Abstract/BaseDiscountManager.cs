@@ -12,6 +12,7 @@ namespace Gun5Odev5TheGame.Abstract
             if (discountRate == 0 || (discountRate <1 && discountRate > 0))
             {
                 item.ItemPrice = item.ItemPrice * discountRate;
+                Console.WriteLine("new price of " + item.ItemName +": " + item.ItemPrice);
             }
             else
             {

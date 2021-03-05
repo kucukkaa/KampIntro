@@ -21,7 +21,7 @@ namespace Gun5Odev5TheGame
 
             Item item1 = new Item();
             item1.ItemName = "Armor";
-            item1.ItemPrice = 5.1;
+            item1.ItemPrice = 100;
 
 
 
@@ -35,8 +35,15 @@ namespace Gun5Odev5TheGame
             BaseDiscountManager discountManager = new DiscountManager();
             discountManager.MakeDiscount(0.50, item1);
             BaseDiscountManager discountManager1 = new BirthDayDiscountManager(player1, new DiscountAdapter());
-            discountManager1.MakeDiscount(0.09, item1);
+            discountManager1.MakeDiscount(0.75, item1);
             sellingManager.Buy(item1, player1);
+            ItemDiscount itemDiscount = new ItemDiscount();
+            itemDiscount.DiscountName = "Yeni Yıl";
+            itemDiscount.DiscountRate = 0.75;
+            itemDiscount.item = item1;
+            BaseDiscountManager itemDiscountManager = new ItemDiscountManager();
+            itemDiscountManager.MakeDiscount(itemDiscount.DiscountRate, itemDiscount.item);
+            
 
 
 

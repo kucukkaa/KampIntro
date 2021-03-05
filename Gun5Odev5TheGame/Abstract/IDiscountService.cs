@@ -5,7 +5,7 @@ using Gun5Odev5TheGame.Entities;
 
 namespace Gun5Odev5TheGame.Abstract
 {
-    interface IDiscountService
+    public interface IDiscountService
     {
         void MakeDiscount(double discountRate, Item item);
     }

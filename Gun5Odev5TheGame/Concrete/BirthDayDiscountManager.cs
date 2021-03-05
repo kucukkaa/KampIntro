@@ -21,7 +21,7 @@ namespace Gun5Odev5TheGame.Concrete
             {
                 discountRate = discountRate + 0.05;
                 item.ItemPrice = item.ItemPrice * discountRate;
-                Console.WriteLine("your dicount rate has been increased because its your birthday");
+                Console.WriteLine("your discount rate has been increased because its your birthday");
             }
             else
             {
