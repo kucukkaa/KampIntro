@@ -12,7 +12,7 @@ namespace Gun5Odev5TheGame
         {
             Player player1 = new Player();
             player1.Id = 1;
-            player1.NationalityId = "50155561840";
+            player1.NationalityId = "********";
             player1.FirstName = "Alierk";
             player1.LastName = "Küçük";
             player1.BirthDate = new DateTime(1986, 03, 05);

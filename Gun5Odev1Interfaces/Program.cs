@@ -25,25 +25,27 @@ namespace Gun5Odev1Interfaces
 
 
 
-            personManger.Add(customer1);
-            personManger.Add(student1);
+            //personManger.Add(customer1);
+            //personManger.Add(student1);
 
 
-            CustomerManager customerManager = new CustomerManager();
-            //customerManager.Add(new SqlServerCustomerDal());
-            //customerManager.Add(new OracleCustomerDal());
+            //CustomerManager customerManager = new CustomerManager();
+            ////customerManager.Add(new SqlServerCustomerDal());
+            ////customerManager.Add(new OracleCustomerDal());
 
 
-            ICustomerDal[] customerDals = new ICustomerDal[2]
-            {
-                new SqlServerCustomerDal(),
-                new OracleCustomerDal()
-            };
+            //ICustomerDal[] customerDals = new ICustomerDal[2]
+            //{
+            //    new SqlServerCustomerDal(),
+            //    new OracleCustomerDal()
+            //};
 
-            foreach (var customerDal in customerDals)
-            {
-                customerDal.Add();
-            }
+            //foreach (var customerDal in customerDals)
+            //{
+            //    customerDal.Add();
+            //}
+            PersonManager personManager = new PersonManager();
+            personManager.Add(student1);
                 
         }
 
