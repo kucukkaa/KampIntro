@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5Odev2Interfaces", "Gun5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5Odev4InterfaceAbstractDemo", "Gun5Odev4InterfaceAbstractDemo\Gun5Odev4InterfaceAbstractDemo.csproj", "{CE0DFFE4-0EBC-4CF0-8330-06C8E4A4F2FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun5Odev5TheGame", "Gun5Odev5TheGame\Gun5Odev5TheGame.csproj", "{3D8FB187-0A9B-442C-BD7B-47E68296F71E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5Odev5TheGame", "Gun5Odev5TheGame\Gun5Odev5TheGame.csproj", "{3D8FB187-0A9B-442C-BD7B-47E68296F71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun8Odev2EntityFrameworkDemo", "Gun8Odev2EntityFrameworkDemo\Gun8Odev2EntityFrameworkDemo.csproj", "{D92C61A1-0210-4E8C-A52C-CF60FE7A31AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{3D8FB187-0A9B-442C-BD7B-47E68296F71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D8FB187-0A9B-442C-BD7B-47E68296F71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D8FB187-0A9B-442C-BD7B-47E68296F71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92C61A1-0210-4E8C-A52C-CF60FE7A31AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92C61A1-0210-4E8C-A52C-CF60FE7A31AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92C61A1-0210-4E8C-A52C-CF60FE7A31AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92C61A1-0210-4E8C-A52C-CF60FE7A31AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
